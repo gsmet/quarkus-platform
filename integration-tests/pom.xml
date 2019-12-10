@@ -35,8 +35,7 @@
         <module>camel-jackson</module>
         <module>camel-jdbc</module>
         <module>camel-mail</module>
-        <module>camel-microprofile-health</module>
-        <module>camel-microprofile-metrics</module>
+        <module>camel-microprofile</module>
         <module>camel-netty</module>
         <module>camel-netty-http</module>
         <module>camel-opentracing</module>

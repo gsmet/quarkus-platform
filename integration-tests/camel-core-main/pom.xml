@@ -53,6 +53,9 @@
           <dependenciesToScan>
              <dependency>${test.groupId}:${test.artifactId}-rpkgtests</dependency>
           </dependenciesToScan>
+          <systemPropertyVariables>
+            <quarkus.test.profile>staging</quarkus.test.profile>
+          </systemPropertyVariables>
         </configuration>
       </plugin>
 

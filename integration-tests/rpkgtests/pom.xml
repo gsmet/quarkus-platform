@@ -88,12 +88,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-integration-test-microprofile-health</artifactId>
-      <version>${camel-quarkus.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel.quarkus</groupId>
-      <artifactId>camel-quarkus-integration-test-microprofile-metrics</artifactId>
+      <artifactId>camel-quarkus-integration-test-microprofile</artifactId>
       <version>${camel-quarkus.version}</version>
     </dependency>
     <dependency>
@@ -279,12 +274,7 @@
                 </testJar>
                 <testJar>
                   <groupId>org.apache.camel.quarkus</groupId>
-                  <artifactId>camel-quarkus-integration-test-microprofile-health</artifactId>
-                  <version>${camel-quarkus.version}</version>
-                </testJar>
-                <testJar>
-                  <groupId>org.apache.camel.quarkus</groupId>
-                  <artifactId>camel-quarkus-integration-test-microprofile-metrics</artifactId>
+                  <artifactId>camel-quarkus-integration-test-microprofile</artifactId>
                   <version>${camel-quarkus.version}</version>
                 </testJar>
                 <testJar>

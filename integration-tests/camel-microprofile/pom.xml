@@ -5,12 +5,12 @@
     <artifactId>quarkus-universe-integration-tests-parent</artifactId>
     <version>999-SNAPSHOT</version>
   </parent>
-  <artifactId>quarkus-universe-integration-tests-camel-microprofile-metrics</artifactId>
-  <name>Quarkus universe - Integration Tests - Camel - MP Metrics</name>
+  <artifactId>quarkus-universe-integration-tests-camel-microprofile</artifactId>
+  <name>Quarkus universe - Integration Tests - Camel - MP</name>
 
   <properties>
     <test.groupId>org.apache.camel.quarkus</test.groupId>
-    <test.artifactId>camel-quarkus-integration-test-microprofile-metrics</test.artifactId>
+    <test.artifactId>camel-quarkus-integration-test-microprofile</test.artifactId>
     <test.version>${camel-quarkus.version}</test.version>
   </properties>
 
@@ -52,9 +52,6 @@
           <dependenciesToScan>
              <dependency>${test.groupId}:${test.artifactId}-rpkgtests</dependency>
           </dependenciesToScan>
-          <excludes>
-            <exclude>MicroProfileMetricsTest</exclude>
-          </excludes>
         </configuration>
       </plugin>
 
