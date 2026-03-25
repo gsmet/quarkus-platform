@@ -1,0 +1,12 @@
+members:
+  - name: MCPServer
+
+branches:
+  latest:
+    default-update-policy: micro
+    members:
+      - name: MCPServer
+  3.33:
+    default-update-policy: micro
+    members:
+      - name: MCPServer
